@@ -1,0 +1,188 @@
+/* _content/Bibliotec/Views/Livros/Cadastro.cshtml.rz.scp.css */
+/* _content/Bibliotec/Views/Livros/Detalhes.cshtml.rz.scp.css */
+/* _content/Bibliotec/Views/Livros/Editar.cshtml.rz.scp.css */
+/* _content/Bibliotec/Views/Login/Index.cshtml.rz.scp.css */
+/******************* Fornmulário de Login *******************/
+.bk-login[b-bsnrxrgv4h] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100wh;
+    height: calc(100vh - 96px);
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+  }
+  
+  .form-box[b-bsnrxrgv4h] {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* 
+    align-items: flex-start;
+    
+    width: 80vw;
+    height: 80vh;
+    padding: 20px;
+    max-width: 900px;
+    min-width: 320px;
+    max-height: 670px;
+    min-height: 400px;
+    background-color: transparent;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.2)
+    );
+    backdrop-filter: blur(5px);
+    border-radius: 30px; */
+  
+    width: 70%;
+    height: 70vh;
+    padding: 50px;
+    background-color: #ffffff90;
+    backdrop-filter: blur(10px);
+    border-radius: 35px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: auto;
+  }
+  
+  .form-box h1[b-bsnrxrgv4h] {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  
+  .formulario .frm-label[b-bsnrxrgv4h] {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .formulario .frm-input[b-bsnrxrgv4h] {
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    outline: none;  
+    border: none;
+  }
+  
+  
+  .formulario .frm-input:first-of-type[b-bsnrxrgv4h] {
+    margin-bottom: 40px;
+  }
+  
+  .formulario .esqueci-senha[b-bsnrxrgv4h] {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+    color: #26333D;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .formulario .btn-entrar[b-bsnrxrgv4h] {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #26333D;
+    border-radius: 10px;
+    transition: background-color .4s;
+    border: none;
+  }
+  
+  .formulario .btn-entrar:hover[b-bsnrxrgv4h] {
+    background-color: #2fd6cb;
+    border: none;
+    color: black;
+  
+  }
+  
+/* _content/Bibliotec/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-s2fi3qphz6] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-s2fi3qphz6] {
+  color: #0077cc;
+}
+
+.btn-primary[b-s2fi3qphz6] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-s2fi3qphz6], .nav-pills .show > .nav-link[b-s2fi3qphz6] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-s2fi3qphz6] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-s2fi3qphz6] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-s2fi3qphz6] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-s2fi3qphz6] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-s2fi3qphz6] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/Bibliotec/Views/Usuario/Index.cshtml.rz.scp.css */
+.conteudo_principal[b-161fjyqyo5] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+
+}
+
+
+.conteudo[b-161fjyqyo5] {
+    display: flex;
+    margin-top: 10px;
+}
+
+.conteudo p[b-161fjyqyo5] {
+    margin-left: 10px;
+}
+
+.linha[b-161fjyqyo5] {
+    background-color: #2fd6cb;
+    width: 50%;
+    height: 3px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
